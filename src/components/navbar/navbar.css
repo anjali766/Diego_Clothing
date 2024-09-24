@@ -1,0 +1,52 @@
+.navbar{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+
+}
+.logo {
+    color: black;
+    cursor:default;
+}
+.navopt{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: grey;
+}
+
+.navopt a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.cart{
+    height: 10px;
+}
+
+.heart {
+    color: red;
+    margin-right: 20px;
+   
+}
+
+span{
+    background-color: yellow;
+    padding: 1px 5px;
+    border-radius: 20px;
+    margin-top: -60px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navopt {
+      flex-direction: column;
+      margin-top: 16px;
+    }
+  }

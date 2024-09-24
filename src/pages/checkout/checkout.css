@@ -1,0 +1,76 @@
+.div {
+    display: inline-flex;
+    gap: 50px;
+    margin-left: 10%;
+}
+
+.chck-detail,
+.chck-form {
+    width: 450px;
+    height: 420px;
+    margin-top: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: fit-content ;
+}
+
+.chck-detail h3{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.order{
+    display:flex;
+    justify-content: space-between;
+    margin:35px;
+    text-align: center;
+    margin-top: 30px;
+    /* display: inline; */
+}
+
+.chck-detail h4{
+    margin-top: 20px;
+   margin-left: 66%;
+}
+
+.chck-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.chck-form h3 {
+    margin-top: 55px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chck-form input,
+.chck-form button,.selectlist {
+    margin: 15px;
+    padding: 5px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.chck-form button{
+    background-color: #007bff;
+    color: white;
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+}
+
+.chck-form button:hover{
+    background-color: #408dde;
+} 
+
+.chck-form input[type=number]::-webkit-inner-spin-button, 
+.chck-form input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
